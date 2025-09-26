@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="KhaiVpn767"
+GitUser="zakiii20211"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 # PROVIDED
