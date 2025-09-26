@@ -303,7 +303,7 @@ systemctl enable resolvconf.service
 cd /usr/bin
 wget -O limit "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/limit-speed.sh"
 wget -O bbr "https://raw.githubusercontent.com/zakiii20211/zakiii20211-TCP-BBR/main/bbr.sh"
-wget -O add-ssh "https://raw.githubusercontent.com/KhaiVpn767/multiport/main/add-user/add-ssh.sh"
+wget -O add-ssh "https://raw.githubusercontent.com/zakiii20211/Multiport/main/add-user/add-ssh.sh"
 wget -O ceklim "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/ceklim.sh"
 wget -O delete "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/delete.sh"
 wget -O hapus "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/hapus.sh"
