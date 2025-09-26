@@ -187,7 +187,7 @@ echo -e "\e[33m╒════════════════════�
 echo -e "     [ XRAY-CORE${NC} : ${status_xray} ]   [ NGINX${NC} : ${status_nginx} ]"
 echo -e "\e[33m╘════════════════════════════════════════════╛\033[0m"
 echo -e "\e[33m╒════════════════════════════════════════════╕\033[0m"
-echo -e "  \033[1;33mSSH XRAY WEBSOCKET MULTIPORT BY KhaiVpn\033[0m"
+echo -e "  \033[1;33mSSH XRAY WEBSOCKET MULTIPORT BY KhaiVPN\033[0m"
 echo -e "\e[33m╘════════════════════════════════════════════╛\033[0m"
 echo -e "\e[33m Traffic\e[0m     ${P}Today     Yesterday     Month     ${N}"
 echo -e "\e[33m Download\e[0m   $dtoday    $dyest     $dmon       "
