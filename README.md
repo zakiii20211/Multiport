@@ -8,11 +8,13 @@
 
 ## For Ubuntu 18.04 / 20.04 / 22.04 / 24.04 For First Time Installation (Update Repo)
 
-```html
+  ```html
   apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
 ```
 
 ## INSTALLATION SCRIPT
-```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/zakiii20211/Multiport/main/V1/setup-lite.sh && chmod +x setup-lite.sh && sed -i -e 's/\r$//' setup-lite.sh && screen -S setup ./setup-lite.sh
+
+  ```html
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/zakiii20211/Multiport/main/V1/setup-lite.sh && chmod +x setup-lite.sh && screen -S setup-lite ./setup-lite.sh
+
 ```
