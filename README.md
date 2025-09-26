@@ -1,12 +1,12 @@
 ## Commands : <img src="https://img.shields.io/static/v1?style=for-the-badge&logo=powershell&label=Shell&message=Bash%20Script&color=lightgray">
 
-## Update & Upgrade First Your VPS for Debian 10 & 11
+## For Debian 10 / 11 / 12 For First Time Installation (Update Repo)
 
 ```html
   apt update -y && apt upgrade -y && apt dist-upgrade -y && reboot
 ```
 
-## Update & Upgrade First Your VPS for Ubuntu 18.04 & 20.04
+## For Ubuntu 18.04 / 20.04 / 22.04 / 24.04 For First Time Installation (Update Repo)
 
 ```html
   apt-get update && apt-get upgrade -y && apt dist-upgrade -y && update-grub && reboot
