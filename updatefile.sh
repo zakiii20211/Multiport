@@ -55,6 +55,7 @@ wget -O dns "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/dn
 wget -O nf "https://raw.githubusercontent.com/zakiii20211/MediaUnlockerTest/main/media.sh"
 wget -O nf "https://raw.githubusercontent.com/zakiii20211/Multiport/main/XRAY/add-vless.sh"
 wget -O nf "https://raw.githubusercontent.com/zakiii20211/Multiport/main/XRAY/user-vless.sh"
+wget -O addvls "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/addvls"
 wget -O menu-helium.sh "https://raw.githubusercontent.com/zakiii20211/Multiport/refs/heads/main/SSH/menu-helium.sh"
 chmod +x limit
 chmod +x bbr
@@ -80,6 +81,7 @@ chmod +x dns
 chmod +x nf
 chmod +x add-vless
 chmod +x user-vless
+chmod +x addvls
 chmod +x menu-helium.sh
 echo -e " [INFO] Update Successfully"
 sleep 2
