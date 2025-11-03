@@ -15,7 +15,7 @@ echo -e "\e[32mloading...\e[0m"
 clear
 IP=$(wget -qO- icanhazip.com)
 dateToday=$(date +"%Y-%m-%d")
-Name=$(curl https://raw.githubusercontent.com/zakiii20211/Multiport/main/LICENSE/access | grep $MYIP | awk '{print $2}')
+Name=$(curl https://raw.githubusercontent.com/KhaiVpn767/Vsg03.khakb.shop5/main/Regist | grep $MYIP | awk '{print $2}')
 
 setup_bot() {
     switch=$(grep -i "switch" /root/.bckupbot | awk '{print $2}')
@@ -73,14 +73,17 @@ botBackup() {
     cp -r /var/www/html backup/html &>/dev/null
 	echo -e "[ ${green}INFO${NC} ] • Backup user data..."
 	sleep 1
-    cp /etc/vmess/* backup/vmess/quota/ &>/dev/null
-    cp /etc/vless/* backup/vless/quota/ &>/dev/null
-    cp /etc/trojan/* backup/trojan/quota/ &>/dev/null
-    cp /etc/kyt/limit/vmess/ip/* backup/vmess/ip/ &>/dev/null
-    cp /etc/kyt/limit/vless/ip/* backup/vless/ip/ &>/dev/null
-    cp /etc/kyt/limit/trojan/ip/* backup/trojan/ip/ &>/dev/null
-    cp /etc/kyt/limit/ssh/ip/* backup/ssh/ip/ &>/dev/null
-    cp /etc/user/ssh/*.txt backup/ssh/ &>/dev/null
+cp -r /root/.acme.sh /root/backup/ &>/dev/null
+cp /etc/passwd /root/backup/ &>/dev/null
+cp /etc/group /root/backup/ &>/dev/null
+cp /etc/shadow /root/backup/ &>/dev/null
+cp /etc/ppp/chap-secrets /root/backup/chap-secrets &>/dev/null
+cp /etc/ipsec.d/passwd /root/backup/passwd1 &>/dev/null
+cp -r /var/lib/premium-script/ /root/backup/premium-script
+cp -r /usr/local/etc/xray /root/backup/xray
+cp -r /home/vps/public_html /root/backup/public_html
+cp -r /etc/cron.d /root/backup/cron.d &>/dev/null
+cp /etc/crontab /root/backup/crontab &>/dev/null
     cp -r /etc/user backup/user &>/dev/null
     cd /root &>/dev/null
     zip -rP "$InputPass" "$IP-$Name-$dateToday.zip" backup >/dev/null 2>&1
