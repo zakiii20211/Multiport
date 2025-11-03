@@ -53,7 +53,7 @@ wget -O info "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/i
 wget -O restart "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/restart.sh"
 wget -O ram "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/ram.sh"
 wget -O dns "https://raw.githubusercontent.com/zakiii20211/Multiport/main/SSH/dns.sh"
-wget -O nf "https://raw.githubusercontent.com/zakiii20211/MediaUnlockerTest/main/media.sh"
+wget -O media "https://raw.githubusercontent.com/zakiii20211/MediaUnlockerTest/main/media.sh"
 wget -O nf "https://raw.githubusercontent.com/zakiii20211/Multiport/main/XRAY/add-vless.sh"
 wget -O nf "https://raw.githubusercontent.com/zakiii20211/Multiport/main/XRAY/user-vless.sh"
 wget -O addvlss "https://raw.githubusercontent.com/zakiii20211/Multiport/refs/heads/main/SSH/addvlss.sh"
